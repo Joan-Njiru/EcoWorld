@@ -1,4 +1,6 @@
-* {box-sizing:border-box}
+* {box-sizing:border-box;
+  font-family: 'Lato', sans-serif;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -127,7 +129,7 @@ a{
   display: flex;
 }
 .recent-projects h2{
-  padding-right: 11%;
+  /* padding-right: 11%; */
   font-size: 40px;
 }
 .preserve{
@@ -155,6 +157,8 @@ a{
   padding: 15px 30px;
   color: white;
   border: none;
+  opacity: .8;
+  /* font-size: 18px; */
 }
 #donate{
   border-radius: 30px;
@@ -162,14 +166,17 @@ a{
   padding: 15px 30px;
   color: white;
   border: none;
+  text-align: center;
+  margin-top: 30px;
+ 
 }
 #donate2{
   border-radius: 30px;
   background-color: rgb(20, 20, 122);
   padding: 15px 30px;
   color: white;
-  margin-left: 45%;
-  margin-bottom: 50px;
+  margin-left: 30%;
+  margin-top: -20%;
   border: none;
 }
 .again{
@@ -183,7 +190,11 @@ a{
   height: 400px;
   text-align: center;
   padding-top: 12%;
+  margin-top: 5%;
 
+}
+.again h2{
+  font-size: 35px;
 }
 
 .words{
@@ -235,23 +246,31 @@ a{
   object-fit: cover;
 }
 .achievements{
-  background-image: url(images/lionandcub.jpg);
+  background-image: url(images/lionandcub.jpg );
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .6;
+ 
+  
 }
+.achievements::before{
+  
+}
+
 .success{
   color:white;
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: space-around;
  
+ 
 }
 #wins{
-  padding-top: 20%;
- 
+  padding-top: 18%;
+}
+#wins p{
+  font-size: 18px;
 }
 .bottom{
   margin-top: 5%;
@@ -275,19 +294,32 @@ footer{
   height: 300px;
   display: flex;
   margin-top: 3%;
-  background-color: rgb(21, 104, 21);
+ background-color: rgb(10, 65, 10);
   justify-content: space-around;
 
 }
 footer ul li{
   list-style: none;
-  color: whitesmoke;
+  color: white;
+  
 }
 /* events */
+.bod{
+  background-color: white;
+}
 .top{
   width: 100%;
   height: 400px;
-  background-image: url(images/maasai-brighterkenya.jpg);
+  background-image: url(images/brighterfuture.jpg);
+  background-repeat: no repeat;
+background-position: center;
+  background-size: 100%;
+
+}
+.top2{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/plant.jpg);
   background-repeat: no repeat;
 background-position: center;
   background-size: 100%;
@@ -312,4 +344,133 @@ background-position: center;
   float: right;
   margin-right: 5%;
   margin-bottom: 5%;
+}
+/* Signup */
+.sign{
+  text-align: center;
+}
+.signup{
+    font-size: 120%;
+}
+.checking{
+  text-align: center;
+}
+.thin{
+  /* border-radius: 21px; */
+  text-align: center;
+  padding:10px 60px;
+  width: 15%;
+}
+.logo{
+  /* margin-left: -3%; */
+  text-align: center;
+}
+.form{
+  padding: 4px;
+}
+.credit{
+  /* border-radius: 21px; */
+  text-align: center;
+  padding:10px 60px;
+  width: 15%;
+}
+.signn{
+  /* border-radius: 21px; */
+  text-align: center;
+  padding:10px 60px;
+  width: 15%;
+  color:white ;
+  background-color: #486943;
+  text-decoration: white;
+}
+.logo{
+  color: #486943;
+}
+body{
+  background-color: #f2fcf4;
+}
+.locs{
+  margin-right: 4%;
+}
+.pass1{
+  margin-left: 3%;
+}
+/* contact-form */
+.contact{
+  background-color: #f7fcf8;
+ margin-bottom: 10%;
+}
+.top1{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/giraffes.jpg);
+  background-repeat: no repeat;
+background-position: center;
+  background-size: 100%;
+
+}
+.contact p{
+  color: grey;
+}
+.contact-form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  text-align: center;
+}
+input{
+  width: 80%;
+  padding:10px ;
+  margin: 5%;
+}
+
+ textarea {
+  width: 80%;
+  padding: 40px;
+  border: 1px solid #ccc;
+  margin: 5%;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+#submit{
+ color: white;
+  margin-top: 3%;
+  padding: 12px 40px;
+  border-radius: 2%;
+  margin: 5%;
+  border: none;
+  background-color: rgb(58, 145, 58);
+}
+
+.info{
+  width: 100%;
+  display:flex ;
+}
+.reachus{
+  width: 40%;
+  margin-left: 10%;
+}
+.reachus1{
+  width: 60%;
+
+}
+/* about */
+.firsty{
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  margin-top: 10%;
+}
+.about{
+  background-color: white
 }
