@@ -1,0 +1,32 @@
+
+/* about */
+.firsty{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 5%;
+  }
+  /* .about{
+   background-image: url(images/buffalo.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   color: white;
+  } */
+  #forests3{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 450px;
+    height: 300px;
+    border-radius: 2%;
+    object-fit: cover;
+    /* opacity: .8; */
+  }
+  .morepics{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  #lin{
+    height: 2px;
+  }

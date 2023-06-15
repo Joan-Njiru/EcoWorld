@@ -9,10 +9,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
 </head>
 <body>
     <div class="navbar">
       <ul>
+        <li><h2 id="eco">EcoKenya</h2></li>
         <li> <a href="index.html">Home</a></li>
         <li><a href="events.html">Events</a> </li>
         <li><a href="about.html">About Us</a></li>
@@ -36,7 +38,7 @@
 
     </div>
     <div class="mySlides fade">
-      <div class="numbertext"></div>
+      
       <img src="images/clearwater-girl.jpg" id="banner">
       <div class="text"><h1>Make this world <br>
         a better place.</h1>
@@ -48,7 +50,7 @@
       <img src="images/elephant.jpg" id="banner">
       <div class="text"><h1>Make this world <br>
         a better place.</h1>
-      <button id="see">See More</button></div>
+      <a href="about.html"><button id="see">See More</button></div></a>
     </div>
   
    
@@ -60,11 +62,11 @@
   <br>
   
   <!-- The dots/circles -->
-  <div style="text-align:center">
+  <!-- <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
+  </div> -->
   
     </div>
     
@@ -79,7 +81,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Nam quae ullam excepturi quasi ut alias libero ipsa! 
       Doloremque vitae, libero mollitia eius neque, temporibus.</p></div>
-      <div><p>27 May 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</p></div>
+      <div><a href="https://www.unep.org/news-and-stories/story/kenya-emerges-leader-fight-against-plastic-pollution"><button id="read">Read More</button></a></div>
       </div>
       <div id="conserve">
         <div><img src="images/rualareaswater.webp" alt="" id="forests"></div> 
@@ -87,15 +89,14 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Nam quae ullam excepturi quasi ut alias libero ipsa! 
   Doloremque vitae, libero mollitia eius neque, temporibus.</p></div>
-  <div><p>27 May 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</p></div>
-  </div>
+  <div><a href="https://www.unep.org/news-and-stories/story/kenya-emerges-leader-fight-against-plastic-pollution"><button id="read">Read More</button></a></div></div>
   <div id="conserve">
     <div><img src="images/syokimauairpollution.webp" alt="" id="forests"></div> 
     <div><h3>Air Pollution</h3> <br>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Nam quae ullam excepturi quasi ut alias libero ipsa! 
 Doloremque vitae, libero mollitia eius neque, temporibus.</p></div>
-<div><p>27 May 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</p></div>
+<div><p<a href="https://www.unep.org/news-and-stories/story/kenya-emerges-leader-fight-against-plastic-pollution"><button>Read More</button></a></div>
 </div>
 </div>
 </div>
@@ -114,7 +115,7 @@ Doloremque vitae, libero mollitia eius neque, temporibus.</p></div>
      <br>
      <br>
        <button id="donate">DONATE NOW</button>
-       <button id="join">VOLUNTEER</button>
+      <a href="events.html"> <button id="join">VOLUNTEER</button></a>
     </div>
       <div id="world">
         <img src="images/Water-Pollution-Crisis-Kenya.jpg" alt="" id="forests1">
@@ -127,16 +128,20 @@ Doloremque vitae, libero mollitia eius neque, temporibus.</p></div>
 <div class="achievements">
 <div class="success">
   <div id="wins">
+    <i class="fa fa-money" aria-hidden="true"  id="icon"></i>
       <p> 500+ succesful donations</p>
 
   </div>
   <div id="wins" >
+    
+    <i class="fa fa-users" aria-hidden="true" id="icon"></i>
       <p>1200+ volunteer reach</p> <br>
 
     <button id="donate">Donate Now</button>
 
   </div>
   <div id="wins">
+    <i class="fa fa-tree" aria-hidden="true" id="ic"></i>
       <p>20,000+ trees planted</p>
 
   </div>
@@ -154,8 +159,8 @@ Doloremque vitae, libero mollitia eius neque, temporibus.</p></div>
   </div>
   <div class="container">
     <img src="images/testimonial1.jpg" alt="Avatar" id="test">
-    <p><span>Chris Fox.</span> <br><br>CEO at Mighty Schools.</p>
-    <p>John Doe saved us from a web disaster.</p>
+    <p><span>Chris Odhiambo.</span> <br><br>CEO at Mighty Schools.</p>
+    <p>It starts with me and you.</p>
   </div>
   <div class="container">
     <img src="images/testimonial2.jpg" alt="Avatar" id="test">
@@ -167,7 +172,7 @@ Doloremque vitae, libero mollitia eius neque, temporibus.</p></div>
 <div class="again">
 <h2>Join the mission to help the world</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-<button id="join">Volunteer Now</button>
+<a href="events.html"></a>
 </div>
 
 <footer>

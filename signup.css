@@ -1,0 +1,47 @@
+.sign{
+    text-align: center;
+  }
+  .signup{
+      font-size: 120%;
+  }
+  .checking{
+    text-align: center;
+  }
+  .thin{
+    /* border-radius: 21px; */
+    text-align: center;
+    padding:10px 60px;
+    width: 15%;
+  }
+  .logo{
+    /* margin-left: -3%; */
+    text-align: center;
+  }
+  .form{
+    padding: 4px;
+  }
+  .credit{
+    /* border-radius: 21px; */
+    text-align: center;
+    padding:10px 60px;
+    width: 15%;
+  }
+  .signn{
+    /* border-radius: 21px; */
+    text-align: center;
+    padding:10px 60px;
+    width: 15%;
+    color:white ;
+    background-color: #486943;
+    text-decoration: white;
+  }
+  .logo{
+    color: #486943;
+  }
+  
+  .locs{
+    margin-right: 4%;
+  }
+  .pass1{
+    margin-left: 3%;
+  }
