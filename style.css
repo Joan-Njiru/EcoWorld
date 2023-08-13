@@ -137,7 +137,7 @@ body{
 }
 .recent-projects{
   width: 100%;
-  text-al1gn: center;
+  text-align: center;
   display: flex;
 }
 .recent-projects h2{
@@ -173,6 +173,7 @@ a:hover{
   color: white;
   border: none;
   opacity: .8;
+  margin-bottom: 20px;
   /* font-size: 18px; */
 }
 #donate{
@@ -234,18 +235,16 @@ a:hover{
   object-fit: cover;
   border-radius: 2%;
 }
-/* #conserve{
-  
+#test1{
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 2%;
 }
-.preserve{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    
-} */
+
 #forests{
-    width: 280px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     border-radius: 2%;
     object-fit: cover;
 }
@@ -273,9 +272,6 @@ a:hover{
   background-repeat: no-repeat;
   background-size: cover;
  
-  
-}
-.achievements::before{
   
 }
 
