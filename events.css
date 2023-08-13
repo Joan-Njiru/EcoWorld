@@ -65,10 +65,12 @@
   
   }
   .events{
+    text-align: center;
     /* background-color: aliceblue; */
     display: flex;
     flex-wrap: wrap;
     margin: 5% ;
+    margin-left: 10%;
   
   }
    .preserve2{
